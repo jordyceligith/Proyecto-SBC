@@ -1,0 +1,36 @@
+Consultas 
+
+PREFIX rdf: <http://schema.org/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX vivo: <http://vivoweb.org/ontology/core/>
+SELECT ?predicate ?object
+WHERE {
+  rdf:Review_of_Financial_Studies ?predicate ?object
+}
+
+Consulta1
+
+    PREFIX rdf: <http://schema.org/>
+        PREFIX morochao:<http://vivoweb.org/ontology/core/>
+        PREFIX mo: <http://purl.org/ontology/mo/>
+        SELECT ?subject  ?object
+        WHERE {{
+             ?subject morochao:Publisher ?object
+             FILTER  regex(?object,  "John")   
+        }}
+
+Consulta2
+	
+"Latin America","Pacific Region","Africa","Northern America","Middle East","Africa/Middle East","Eastern Europe","United States"	,"Asiatic Region","Western Europe"
+
+
+Journals ----------------Region
+
+1 busqueda publisehr
+2 busqueda de jorunals por region "Pongo la region y me devuelve journal issnn y SJR"
+3 busqueda issn (Region, SJR,BEST)
+4 Busqueda jurnals y publisher
+5 busqueda issn (jounal region y publisher
+6 busqueda issn (subject_name,journal)
+
+
