@@ -9,9 +9,9 @@
  
  4 iniciar appp
  
- ****************copia tutorial**********
- 
- Datos enlazados
+ ****************copia tutorial**********A
+
+ 'Datos enlazados
  
  datos1 se sube al collab
  
